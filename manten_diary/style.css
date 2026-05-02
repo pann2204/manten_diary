@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+}
+
+.header {
+    background: yellow;
+    border: 5px solid black;
+    padding: 25px 25px 25px 25px;
+    margin: 20px 20px 20px 20px ;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title {
+    margin: 40px auto;
+    padding: 15px;
+    width: 300px;
+    color: white;
+    border-radius: 30px;
+    background: linear-gradient(to right, #00d6b5, #91df54);
+}
+
+.btn {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    padding: 12px;
+    background: #2c6ebd;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.login-table {
+    margin: auto;
+    text-align: left;
+}
+
+.login-table td {
+    padding: 4px 10px;
+}
+
+.form-table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-table td {
+    padding: 6px 10px;
+}
+
+.center-btn {
+    display: block;
+    margin: 20px auto;
+}
+
+.welcome {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.diary-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.diary-table th,
+.diary-table td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.link-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-area a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.calendar-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.calendar-table th {
+    background: #eee;
+}
+
+.calendar-table a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.calendar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;   /* 👉 ဒီက space */
+    margin: 20px 0;
+}
+
+.ranking-table {
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 35px 10px;
+    font-size: 18px;
+}
+
+.ranking-table th,
+.ranking-table td {
+    text-align: center;
+}
+
+.form-area label {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    padding-left: 500px; /* center alignment adjust */
+}
+
+.form-area input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.form-area input[type="checkbox"] {
+    margin-right: 10px;
+    transform: none;
+}
+
+textarea {
+    width: 360px;
+    height: 70px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+}
